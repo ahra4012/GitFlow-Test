@@ -1,7 +1,6 @@
 <template>
   <form v-on:submit.prevent="submitForm">
     <div>
-      <label for="username">id: whdkfk4012</label>
       <input id="username" type="text" v-model="username">
     </div>
     <div>
